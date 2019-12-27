@@ -1,13 +1,8 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  background: rgb(7,179,24);
+  background: -moz-linear-gradient(180deg, rgba(7,179,24,1) 0%, rgba(9,94,13,1) 63%);
+  background: -webkit-linear-gradient(180deg, rgba(7,179,24,1) 0%, rgba(9,94,13,1) 63%);
+  background: linear-gradient(180deg, rgba(7,179,24,1) 0%, rgba(9,94,13,1) 63%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#07b318",endColorstr="#095e0d",GradientType=1);
+  background-attachment: fixed;
 }
